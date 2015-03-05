@@ -42,7 +42,7 @@ fi:
       spree/order:
         checkout_complete: Tilaus valmis
         completed_at: Valmistui
-        considered_risky:
+        considered_risky: Riskialttius
         coupon_code: Kupongin koodi
         created_at: Tilauspäivä
         email: Asiakkaan sähköposti
@@ -1044,7 +1044,7 @@ fi:
     quantity: Määrä
     quantity_returned: Palautettu määrä
     quantity_shipped: Toimitettu määrä
-    quick_search:
+    quick_search: Pikahaku
     rate: Taso
     reason: Syy
     receive: vastaanota
