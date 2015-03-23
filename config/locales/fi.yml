@@ -45,7 +45,7 @@ fi:
         considered_risky: Riskialttius
         coupon_code: Kupongin koodi
         created_at: Tilauspäivä
-        email: Asiakkaan sähköposti
+        email: Sähköposti
         ip_address: IP-osoite
         item_total: Tuotteet yhteensä
         number: Numero
