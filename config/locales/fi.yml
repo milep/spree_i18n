@@ -209,6 +209,9 @@ fi:
         one: Luottokortti
         other: Luottokortit
       spree/customer_return:
+      spree/image:
+        one: Kuva
+        other: Kuvaa
       spree/inventory_unit:
         one: Myyntiyksikkö
         other: Myyntiyksikköä
@@ -1325,7 +1328,7 @@ fi:
     update: Päivitä
     updating: Päivitetään
     usage_limit: Käyttöraja
-    use_app_default:
+    use_app_default: Käytä oletusta
     use_billing_address: Käytä laskutusosoitetta
     use_new_cc: Käytä uutta korttia
     use_s3: Käytä Amazon S3:a kuvia varten
