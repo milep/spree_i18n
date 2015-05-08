@@ -461,7 +461,7 @@ fi:
     back_to_users_list: Takaisin käyttäjäluetteloon
     backorderable: Jälkitoimitus sallittu
     backorderable_default:
-    backordered:
+    backordered: Jälkitoimituksessa
     backorders_allowed: Jälkitoimitukset sallittu
     balance_due: Erääntyvät
     base_amount:
@@ -488,7 +488,7 @@ fi:
     card_type:
     card_type_is: Kortin tyyppi on
     cart: Ostoskori
-    cart_subtotal:
+    cart_subtotal: Välisumma
     categories: Kategoriat
     category: Kategoria
     charged:
@@ -665,7 +665,7 @@ fi:
     filter_results: Suodata tuloksia
     finalize: Viimeistele
     finalized:
-    find_a_taxon:
+    find_a_taxon: Etsi taxon
     first_item: Ensimmäisen tuotteen kulut
     first_name: Etunimi
     first_name_begins_with: Etunimi alkaa
