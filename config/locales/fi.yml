@@ -701,7 +701,8 @@ fi:
       supported_locales: Tuetut kielet
       this_file_language: Suomi
       translations: Käännökset
-    icon: Kuvake
+      locales_displayed_on_frontend_select_box: Kaupassa näytettävät kielet
+    Icon: Kuvake
     identifier:
     image: Kuva
     images: Kuvat
