@@ -709,7 +709,7 @@ fi:
     implement_eligible_for_return:
     implement_requires_manual_intervention:
     inactive:
-    incl:
+    incl: Sis.
     included_in_price: Sisällytetty hintaan
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
     incomplete:
