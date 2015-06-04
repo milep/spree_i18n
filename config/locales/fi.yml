@@ -831,7 +831,7 @@ fi:
     new_zone: Uusi alue
     next: Seuraava
     no_actions_added: Toimintoja ei lisätty
-    no_payment_found:
+    no_payment_found: Virhe. Maksua ei löytynyt.
     no_pending_payments: Ei maksuja odottamassa
     no_products_found: Ei löytynyt tuotteita
     no_resource_found: Kohdetta %{resource} ei löytynyt
