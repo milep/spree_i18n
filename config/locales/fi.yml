@@ -446,6 +446,7 @@ fi:
     are_you_sure: Oletko varma?
     are_you_sure_delete: Haluatko varmasti poistaa tämän tiedon?
     associated_adjustment_closed: Tähän liitetty hintamuutos on suljettu, joten sitä ei huomioida laskuissa. Haluatko avata sen?
+    at_symbol: *
     authorization_failure: Valtuutus epäonnistui
     authorized: Valtuutettu
     auto_capture:
@@ -879,14 +880,14 @@ fi:
     order_information: Tilauksen tiedot
     order_mailer:
       cancel_email:
-        dear_customer: Hyvä asiakkaamme,\n
+        dear_customer: Hyvä asiakkaamme,
         instructions: Tilauksesi on PERUUTETTU. Ole hyvä ja pidä tämä peruutusvahvistus tallessa.
         order_summary_canceled: Tilauksen yhteenveto [PERUUTETTU]
         subject: Tilauksen peruutus
         subtotal: Välisumma
         total: Yhteensä
       confirm_email:
-        dear_customer: Hyvä asiakkaamme,\n
+        dear_customer: Hyvä asiakkaamme,
         instructions: Ole hyvä ja pidä tilauksen tiedot tallessa.
         order_summary: Tilauksen yhteenveto
         subject: Tilausvahvistus
