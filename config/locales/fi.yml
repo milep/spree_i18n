@@ -42,10 +42,10 @@ fi:
       spree/order:
         checkout_complete: Tilaus valmis
         completed_at: Valmistui
-        considered_risky:
+        considered_risky: Riskialttius
         coupon_code: Kupongin koodi
         created_at: Tilauspäivä
-        email: Asiakkaan sähköposti
+        email: Sähköposti
         ip_address: IP-osoite
         item_total: Tuotteet yhteensä
         number: Numero
@@ -209,6 +209,9 @@ fi:
         one: Luottokortti
         other: Luottokortit
       spree/customer_return:
+      spree/image:
+        one: Kuva
+        other: Kuvaa
       spree/inventory_unit:
         one: Myyntiyksikkö
         other: Myyntiyksikköä
@@ -216,6 +219,8 @@ fi:
         one: Tuoterivi
         other: Tuoterivit
       spree/option_type:
+        one: Valintatyyppi
+        other: Valintatyypit
       spree/option_value:
       spree/order:
         one: Tilaus
@@ -391,16 +396,16 @@ fi:
     admin:
       tab:
         configuration: Konfigurointi
-        option_types:
+        option_types: Valintatyypit
         orders: Tilaukset
         overview: Yleiskatsaus
         products: Tuotteet
         promotions: Kampanjat
-        properties:
-        prototypes:
+        properties: Ominaisuudet
+        prototypes: Prototyypit
         reports: Raportit
-        taxonomies:
-        taxons:
+        taxonomies: Taksonomiat
+        taxons: Taksonit
         users: Käyttäjät
       user:
         account:
@@ -435,14 +440,15 @@ fi:
     analytics_desc_list_4: Se on täysin ilmainen!
     analytics_trackers: Tilastoinnin seurantakoodit
     and: ja
-    approve:
-    approved_at:
-    approver:
+    approve: Hyväksy
+    approved_at: Hyväksytty
+    approver: Hyväksyjä
     are_you_sure: Oletko varma?
     are_you_sure_delete: Haluatko varmasti poistaa tämän tiedon?
     associated_adjustment_closed: Tähän liitetty hintamuutos on suljettu, joten sitä ei huomioida laskuissa. Haluatko avata sen?
+    at_symbol: "*"
     authorization_failure: Valtuutus epäonnistui
-    authorized:
+    authorized: Valtuutettu
     auto_capture:
     available_on: Saatavilla
     average_order_value:
@@ -456,7 +462,7 @@ fi:
     back_to_users_list: Takaisin käyttäjäluetteloon
     backorderable: Jälkitoimitus sallittu
     backorderable_default:
-    backordered:
+    backordered: Jälkitoimituksessa
     backorders_allowed: Jälkitoimitukset sallittu
     balance_due: Erääntyvät
     base_amount:
@@ -483,7 +489,7 @@ fi:
     card_type:
     card_type_is: Kortin tyyppi on
     cart: Ostoskori
-    cart_subtotal:
+    cart_subtotal: Välisumma
     categories: Kategoriat
     category: Kategoria
     charged:
@@ -558,7 +564,7 @@ fi:
     customer_details: Asiakastiedot
     customer_details_updated: Asiakkaan tiedot on päivitetty.
     customer_return:
-    customer_returns:
+    customer_returns: Asiakaspalautukset
     customer_search: Asiakashaku
     cut: Leikkaa
     cvv_response:
@@ -590,7 +596,7 @@ fi:
     description: Kuvaus
     destination: Kohde
     destroy: Tuhoa
-    details:
+    details: Tuotetiedot
     discount_amount: Alennuksen määrä
     dismiss_banner: Ei kiitos! En ole kiinnostunut, älä näytä tätä viestiä uudelleen.
     display: Näytä
@@ -656,10 +662,11 @@ fi:
     failed_payment_attempts:
     filename: Tiedostonimi
     fill_in_customer_info: Täytä asiakastiedot
+    filter: Tarkenna
     filter_results: Suodata tuloksia
     finalize: Viimeistele
     finalized:
-    find_a_taxon:
+    find_a_taxon: Etsi taxon
     first_item: Ensimmäisen tuotteen kulut
     first_name: Etunimi
     first_name_begins_with: Etunimi alkaa
@@ -695,14 +702,15 @@ fi:
       supported_locales: Tuetut kielet
       this_file_language: Suomi
       translations: Käännökset
-    icon: Kuvake
+      locales_displayed_on_frontend_select_box: Kaupassa näytettävät kielet
+    Icon: Kuvake
     identifier:
     image: Kuva
     images: Kuvat
     implement_eligible_for_return:
     implement_requires_manual_intervention:
     inactive:
-    incl:
+    incl: Sis.
     included_in_price: Sisällytetty hintaan
     included_price_validation: cannot be selected unless you have set a Default Tax Zone
     incomplete:
@@ -745,7 +753,7 @@ fi:
     last_name_begins_with: Sukunimi alkaa
     learn_more: Lue lisää
     lifetime_stats:
-    line_item_adjustments:
+    line_item_adjustments: Tuoterivien muokkaukset
     list: Lista
     loading: Ladataan
     locale_changed: Lokalisointi vaihdettu
@@ -824,7 +832,7 @@ fi:
     new_zone: Uusi alue
     next: Seuraava
     no_actions_added: Toimintoja ei lisätty
-    no_payment_found:
+    no_payment_found: Virhe. Maksua ei löytynyt.
     no_pending_payments: Ei maksuja odottamassa
     no_products_found: Ei löytynyt tuotteita
     no_resource_found: Kohdetta %{resource} ei löytynyt
@@ -854,7 +862,7 @@ fi:
     open: Avaa
     open_all_adjustments: Avaa kaikki hintamuutokset
     option_type: Valintatyyppi
-    option_type_placeholder: Valitse option tyyppi
+    option_type_placeholder: Valitse valintatyyppi
     option_types: Valintatyypit
     option_value: Valinta-arvo
     option_values: Valinta-arvot
@@ -872,22 +880,22 @@ fi:
     order_information: Tilauksen tiedot
     order_mailer:
       cancel_email:
-        dear_customer: Hyvä asiakkaamme,\n
+        dear_customer: Hyvä asiakkaamme,
         instructions: Tilauksesi on PERUUTETTU. Ole hyvä ja pidä tämä peruutusvahvistus tallessa.
         order_summary_canceled: Tilauksen yhteenveto [PERUUTETTU]
         subject: Tilauksen peruutus
-        subtotal:
-        total:
+        subtotal: Välisumma
+        total: Yhteensä
       confirm_email:
-        dear_customer: Dear Customer,\n
+        dear_customer: Hyvä asiakkaamme,
         instructions: Ole hyvä ja pidä tilauksen tiedot tallessa.
         order_summary: Tilauksen yhteenveto
         subject: Tilausvahvistus
-        subtotal:
-        thanks: Thank you for your business.
-        total:
+        subtotal: Välisumma
+        thanks: Kiitos tilauksestanne.
+        total: Yhteensä
     order_not_found: Tilaustasi ei löytynyt näillä tiedoilla. Yritä ystävällisesti uudelleen.
-    order_number:
+    order_number: Tilausnumero %{number}
     order_populator:
       out_of_stock: "%{item} on loppunut varastosta."
       please_enter_reasonable_quantity: Anna joku kohtuullinen määrä.
@@ -1044,7 +1052,7 @@ fi:
     quantity: Määrä
     quantity_returned: Palautettu määrä
     quantity_shipped: Toimitettu määrä
-    quick_search:
+    quick_search: Pikahaku
     rate: Taso
     reason: Syy
     receive: vastaanota
@@ -1104,7 +1112,7 @@ fi:
     return_number:
     return_quantity: Palautettava määrä
     returned: Palattu
-    returns:
+    returns: Palautukset
     review: Review
     risk:
     risk_analysis:
@@ -1119,7 +1127,7 @@ fi:
     sales_total_description: Kaikkien tilausten kokonaismyynti
     sales_totals: Myynti yhteensä
     save_and_continue: Tallenna ja jatka
-    save_my_address:
+    save_my_address: Tallenna osoitteeni
     say_no: Ei
     say_yes: Kyllä
     scope: Laajuus
@@ -1143,7 +1151,7 @@ fi:
     ship_total: Toimitus yhteensä
     shipment: Toimitus
     shipment_adjustments:
-    shipment_details:
+    shipment_details: "%{stock_location} %{shipping_method}"
     shipment_mailer:
       shipped_email:
         dear_customer: Hyvä asiakkaamme,\n
@@ -1176,7 +1184,7 @@ fi:
     shipping_method: Toimitustapa
     shipping_methods: Toimitustavat
     shipping_price_sack: Hintasäkki
-    shipping_total:
+    shipping_total: Toimituskulut
     shop_by_taxonomy: "%{taxonomy}"
     shopping_cart: Ostoskori
     show: Näytä
@@ -1185,6 +1193,7 @@ fi:
     show_only_complete_orders: Näytä vain valmiit tilaukset
     show_only_considered_risky:
     show_rate_in_label: Näytä vero hinnoissa
+    signup: Rekisteröidy
     sku: SKU
     skus:
     slug:
@@ -1232,7 +1241,7 @@ fi:
     states: Läänit/osavaltiot
     states_required: Maakunta vaaditaan
     status: Tila
-    stock:
+    stock: Varastonhallinta
     stock_location: Varaston sijainti
     stock_location_info: Varaston tiedot
     stock_locations: Varastot
@@ -1256,7 +1265,7 @@ fi:
     successfully_removed: "%{resource} poisto onnistui!"
     successfully_signed_up_for_analytics: Rekisteröidytty Spree Analyticsiin
     successfully_updated: "%{resource} päivitys onnistui!"
-    summary:
+    summary: Yhteenveto
     tax: Vero
     tax_categories: Verokategoriat
     tax_category: Verokategoria
@@ -1300,7 +1309,7 @@ fi:
     total_pre_tax_refund:
     total_price:
     total_sales:
-    track_inventory:
+    track_inventory: Seuraa saldoa
     tracking: Seuranta
     tracking_number: Seurantatunnus
     tracking_url: Seurantaosoite
@@ -1321,7 +1330,7 @@ fi:
     update: Päivitä
     updating: Päivitetään
     usage_limit: Käyttöraja
-    use_app_default:
+    use_app_default: Käytä oletusta
     use_billing_address: Käytä laskutusosoitetta
     use_new_cc: Käytä uutta korttia
     use_s3: Käytä Amazon S3:a kuvia varten
