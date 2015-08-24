@@ -899,7 +899,7 @@ fi:
     order_populator:
       out_of_stock: "%{item} on loppunut varastosta."
       please_enter_reasonable_quantity: Anna joku kohtuullinen määrä.
-      selected_quantity_not_available:
+      selected_quantity_not_available: Valittua määrää ei ole saatavilla
     order_processed_successfully: Tilauksenne käsitelty onnistuneesti
     order_resumed:
     order_state:
@@ -1141,6 +1141,7 @@ fi:
     select_a_stock_location:
     select_from_prototype: Valitse prototyypistä
     select_stock: Valitse varasto
+    selected_quantity_not_available: 'valitulle tuotteelle %{item} ei ole saatavissa'
     send_copy_of_all_mails_to: Lähetä kopio kaikista sähköposteista
     send_mails_as: Lähetä sähköpostiviestit
     server: Palvelin
