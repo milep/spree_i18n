@@ -95,7 +95,7 @@ fi:
         starts_at: Alkaa
         usage_limit: Käyttöraja
       spree/promotion_category:
-        name:
+        name: Kampanjakategoria
       spree/property:
         name: Nimi
         presentation: Julkinen nimi
@@ -225,6 +225,9 @@ fi:
       spree/order:
         one: Tilaus
         other: Tilaukset
+      spree/page:
+        one: Sivu
+        other: Sivut
       spree/payment:
         one: Maksu
         other: Maksut
@@ -238,6 +241,8 @@ fi:
         one: Kampanja
         other: Kampanjat
       spree/promotion_category:
+        one: Kampanjakategoria
+        other: Kampanjakategoriat
       spree/property:
         one: Ominaisuus
         other: Ominaisuudet
@@ -401,6 +406,7 @@ fi:
         overview: Yleiskatsaus
         products: Tuotteet
         promotions: Kampanjat
+        promotion_categories: Kampanjakategoriat
         properties: Ominaisuudet
         prototypes: Prototyypit
         reports: Raportit
@@ -899,7 +905,7 @@ fi:
     order_populator:
       out_of_stock: "%{item} on loppunut varastosta."
       please_enter_reasonable_quantity: Anna joku kohtuullinen määrä.
-      selected_quantity_not_available:
+      selected_quantity_not_available: Valittua määrää ei ole saatavilla
     order_processed_successfully: Tilauksenne käsitelty onnistuneesti
     order_resumed:
     order_state:
@@ -956,7 +962,7 @@ fi:
     payments: Maksut
     pending:
     percent: Prosentti
-    percent_per_item: Percent Per Item
+    percent_per_item: Prosenttia per rivi
     permalink: Permalink
     phone: Puhelin
     place_order: Tee tilaus
@@ -981,63 +987,64 @@ fi:
     product_properties: Tuotteen ominaisuudet
     product_rule:
       choose_products: Valitse tuotteet
-      label:
+      label: Tilauksen tulee sisältää x määrä näitä tuotteita
       match_all: kaikki
       match_any: ainakin yksi
-      match_none:
+      match_none: ei yhtään
       product_source:
         group: Tuoteryhmästä
         manual: Valitse
     products: Tuotteet
-    promotion: Promotion
-    promotion_action: Promotion Action
+    promotion: Kampanja
+    promotion_action: Kampanjatoiminto
     promotion_action_types:
       create_adjustment:
         description: Luo tilaukselle hintamuutoksen kampanjan avulla
-        name: Uusi hintamuutos
+        name: Uusi tilauskohtainen hintamuutos
       create_item_adjustments:
-        description:
-        name:
+        description: Luo tilausriville hintamuutos kampanjan avulla
+        name: Uusi rivikohtainen hintamuutos
       create_line_items:
-        description: Populates the cart with the specified quantity of variant
-        name: Create line items
+        description: Lisää ostoskoriin variantteja
+        name: Lisää tuote
       free_shipping:
-        description:
-        name:
-    promotion_actions: Actions
+        description: Kaikki toimitukset tilaukselle ovat ilmaisia
+        name: Ilmainen toimitus
+    promotion_actions: Toiminnot
+    promotion_categories: Kampanjakategoriat
     promotion_form:
       match_policies:
-        all: Match any of these rules
-        any: Match all of these rules
-    promotion_rule: Promotion Rule
+        all: Kaikki säännöt osuu
+        any: Jokin sääntö osuu
+    promotion_rule: Kampanjasääntö
     promotion_rule_types:
       first_order:
         description: Täytyy olla asiakkaan ensimmäinen tilaus
         name: Ensimmäinen tilaus
       item_total:
         description: Tilaus täyttää nämä kriteerit
-        name: Item total
+        name: Tilaus yhteensä
       landing_page:
         description: Asiakkaan on täytynyt vierailla tietyllä sivulla
         name: Landing Page
       one_use_per_user:
-        description:
-        name:
+        description: Käyttäjäkohtainen kerta-alennus
+        name: Käyttäjäkohtainen kerta-alennus
       option_value:
-        description:
-        name:
+        description: Tilaus sisältää tietyn tuotteen valintatyypillä
+        name: Valintatyyppi
       product:
         description: Tilaus sisältää määritellyt tuotteet
         name: Tuotteet
       taxon:
-        description:
-        name:
+        description: Tilaus sisältää tuotteen tietystä taxonista
+        name: Taxonit
       user:
         description: Saatavilla vain määritellyille käyttäjille
         name: Käyttäjä
       user_logged_in:
-        description: Available only to logged in users
-        name: User Logged In
+        description: Vain sisäänkirjautuneille käyttäjille
+        name: Käyttäjä on kirjautunut
     promotion_uses:
     promotionable:
     promotions: Kampanjat
@@ -1141,6 +1148,7 @@ fi:
     select_a_stock_location:
     select_from_prototype: Valitse prototyypistä
     select_stock: Valitse varasto
+    selected_quantity_not_available: 'valitulle tuotteelle %{item} ei ole saatavissa'
     send_copy_of_all_mails_to: Lähetä kopio kaikista sähköposteista
     send_mails_as: Lähetä sähköpostiviestit
     server: Palvelin
