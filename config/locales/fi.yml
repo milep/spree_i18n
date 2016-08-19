@@ -1202,7 +1202,7 @@ fi:
     show_deleted: Näytä poistetut
     show_only_complete_orders: Näytä vain valmiit tilaukset
     show_only_considered_risky:
-    show_rate_in_label: Näytä vero hinnoissa
+    show_rate_in_label: Näytä prosentti nimessä
     signup: Rekisteröidy
     sku: SKU
     skus:
