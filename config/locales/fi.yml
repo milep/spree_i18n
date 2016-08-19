@@ -388,6 +388,10 @@ fi:
     adjustable:
     adjustment: Hintamuutos
     adjustment_amount: Summa
+    adjustment_labels:
+      tax_rates:
+        including_tax: '%{name}%{amount} (Sisältyy hintaan)'
+        excluding_tax: '%{name}%{amount}'
     adjustment_successfully_closed: Hintamuutos on nyt suljettu!
     adjustment_successfully_opened: Hintamuutos on nyt avattu!
     adjustment_total: Hintamuutokset yhteensä
