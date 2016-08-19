@@ -1190,6 +1190,10 @@ fi:
     shipping_method: Toimitustapa
     shipping_methods: Toimitustavat
     shipping_price_sack: Hintasäkki
+    shipping_rates:
+      display_price:
+        including_tax: "%{price} (sis. %{tax_amount} %{tax_rate_name})"
+        excluding_tax: "%{price} (+ %{tax_amount} %{tax_rate_name})"
     shipping_total: Toimituskulut
     shop_by_taxonomy: "%{taxonomy}"
     shopping_cart: Ostoskori
