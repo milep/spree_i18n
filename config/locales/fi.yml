@@ -994,6 +994,7 @@ fi:
         manual: Valitse
     products: Tuotteet
     promotion: Kampanja
+    promotionable: Kampanjoitava
     promotion_action: Kampanjatoiminto
     promotion_action_types:
       create_adjustment:
@@ -1015,6 +1016,7 @@ fi:
         all: Kaikki säännöt osuu
         any: Jokin sääntö osuu
     promotion_rule: Kampanjasääntö
+    promotion_label: 'Kampanja (%{name})'
     promotion_rule_types:
       first_order:
         description: Täytyy olla asiakkaan ensimmäinen tilaus
@@ -1043,8 +1045,7 @@ fi:
       user_logged_in:
         description: Vain sisäänkirjautuneille käyttäjille
         name: Käyttäjä on kirjautunut
-    promotion_uses:
-    promotionable:
+    promotion_uses: Käyttökerrat
     promotions: Kampanjat
     propagate_all_variants:
     properties: Ominaisuudet
