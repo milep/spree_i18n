@@ -883,6 +883,8 @@ fi:
     order_email_resent: Tilausviesti uudelleenlähetetty
     order_information: Tilauksen tiedot
     order_mailer:
+      subtotal: Välisumma
+      total: Yhteensä
       cancel_email:
         dear_customer: Hyvä asiakkaamme,
         instructions: Tilauksesi on PERUUTETTU. Ole hyvä ja pidä tämä peruutusvahvistus tallessa.
